@@ -15,11 +15,11 @@
 			<form:errors path="username"/>
 
 			<form:label path="password">Password</form:label>
-			<form:password path="password" onkeyup="doAjax()"/>
+			<form:password path="password"/>
 			<form:errors path="password"/>
 		</fieldSet>
 
-		<input type="submit" value="Login" name="_eventId_submit">
+		<input type="submit" name="_eventId_submit">
 	</form:form>
 </body>
 
